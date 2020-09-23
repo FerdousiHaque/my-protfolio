@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/FerdousiHaque/my-protfolio/static/css/main.c3cbed3f.chunk.css",
-    "main.js": "/FerdousiHaque/my-protfolio/static/js/main.3f7ac9e1.chunk.js",
-    "main.js.map": "/FerdousiHaque/my-protfolio/static/js/main.3f7ac9e1.chunk.js.map",
-    "runtime-main.js": "/FerdousiHaque/my-protfolio/static/js/runtime-main.70708419.js",
-    "runtime-main.js.map": "/FerdousiHaque/my-protfolio/static/js/runtime-main.70708419.js.map",
-    "static/css/2.cd1c2086.chunk.css": "/FerdousiHaque/my-protfolio/static/css/2.cd1c2086.chunk.css",
-    "static/js/2.53cf120d.chunk.js": "/FerdousiHaque/my-protfolio/static/js/2.53cf120d.chunk.js",
-    "static/js/2.53cf120d.chunk.js.map": "/FerdousiHaque/my-protfolio/static/js/2.53cf120d.chunk.js.map",
-    "index.html": "/FerdousiHaque/my-protfolio/index.html",
-    "precache-manifest.7a07766d8726356ca2a2989f8d4aa56f.js": "/FerdousiHaque/my-protfolio/precache-manifest.7a07766d8726356ca2a2989f8d4aa56f.js",
-    "service-worker.js": "/FerdousiHaque/my-protfolio/service-worker.js",
-    "static/css/2.cd1c2086.chunk.css.map": "/FerdousiHaque/my-protfolio/static/css/2.cd1c2086.chunk.css.map",
-    "static/css/main.c3cbed3f.chunk.css.map": "/FerdousiHaque/my-protfolio/static/css/main.c3cbed3f.chunk.css.map",
-    "static/js/2.53cf120d.chunk.js.LICENSE.txt": "/FerdousiHaque/my-protfolio/static/js/2.53cf120d.chunk.js.LICENSE.txt"
+    "main.css": "/my-protfolio/static/css/main.c3cbed3f.chunk.css",
+    "main.js": "/my-protfolio/static/js/main.197b8cb5.chunk.js",
+    "main.js.map": "/my-protfolio/static/js/main.197b8cb5.chunk.js.map",
+    "runtime-main.js": "/my-protfolio/static/js/runtime-main.dc0a8886.js",
+    "runtime-main.js.map": "/my-protfolio/static/js/runtime-main.dc0a8886.js.map",
+    "static/css/2.cd1c2086.chunk.css": "/my-protfolio/static/css/2.cd1c2086.chunk.css",
+    "static/js/2.53cf120d.chunk.js": "/my-protfolio/static/js/2.53cf120d.chunk.js",
+    "static/js/2.53cf120d.chunk.js.map": "/my-protfolio/static/js/2.53cf120d.chunk.js.map",
+    "index.html": "/my-protfolio/index.html",
+    "precache-manifest.a65e6e8baddcb87fea2f9eec452b55a2.js": "/my-protfolio/precache-manifest.a65e6e8baddcb87fea2f9eec452b55a2.js",
+    "service-worker.js": "/my-protfolio/service-worker.js",
+    "static/css/2.cd1c2086.chunk.css.map": "/my-protfolio/static/css/2.cd1c2086.chunk.css.map",
+    "static/css/main.c3cbed3f.chunk.css.map": "/my-protfolio/static/css/main.c3cbed3f.chunk.css.map",
+    "static/js/2.53cf120d.chunk.js.LICENSE.txt": "/my-protfolio/static/js/2.53cf120d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.70708419.js",
+    "static/js/runtime-main.dc0a8886.js",
     "static/css/2.cd1c2086.chunk.css",
     "static/js/2.53cf120d.chunk.js",
     "static/css/main.c3cbed3f.chunk.css",
-    "static/js/main.3f7ac9e1.chunk.js"
+    "static/js/main.197b8cb5.chunk.js"
   ]
 }
