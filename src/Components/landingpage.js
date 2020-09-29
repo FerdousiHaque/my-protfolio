@@ -34,8 +34,8 @@ class Landing extends Component {
           </a>
 
           {/* Freecodecamp */}
-          <a href="https://www.urionlinejudge.com.br/judge/en/users/statistics/121127" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+          <a href="https://join.skype.com/invite/BrzQYHAGaOE7" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-skype" aria-hidden="true" />
           </a>
 
           {/* Youtube */}

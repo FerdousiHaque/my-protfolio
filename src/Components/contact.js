@@ -5,19 +5,14 @@ import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 class Contact extends Component {
   render() {
     return(
-      <div className="contact-body">
-        <Grid className="contact-grid">
+     
+        <Grid>
           <Cell col={6}>
             <h2>Ferdousi Haque</h2>
-            <img
-              src="https://fersousikucse16.files.wordpress.com/2020/06/02.jpg"
-              alt="avatar"
-              style={{height: '250px'}}
-               />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
+             <h6 style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
              I am a dreamer and believer. I eagerly wait to learn new things. I can speak well both in English and Bangla. Another quality
              I like to take challenge and overcome the challenge by investing time and effort. I find it difficult to refuse people when it’s about helping them.
-             </p>
+             </h6>
 
           </Cell>
           <Cell col={6}>
@@ -36,7 +31,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
                     <i className="fa fa-fax" aria-hidden="true"/>
-                    +8801915936113
+                    +8801915936420
                   </ListItemContent>
                 </ListItem>
 
@@ -59,7 +54,7 @@ class Contact extends Component {
             </div>
           </Cell>
         </Grid>
-      </div>
+      
     )
   }
 }
