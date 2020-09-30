@@ -15,7 +15,7 @@ class About extends Component {
         <Grid>
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#000', height: '176px', background: 'url()'}} >
+            <CardTitle style={{color: '#000', height: '176px', background: 'url(../assets/images/location.png)'}} >
             Location Searching</CardTitle>
             <CardText>
             where user can search different location and user can see the location details with image. I deploy this web app in Docker.

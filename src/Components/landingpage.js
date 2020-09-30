@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-
+import mypic from '../assets/images/me.jpg';
 
 class Landing extends Component {
   render() {
@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://fersousikucse16.files.wordpress.com/2020/06/02.jpg"
+              src={mypic}
               alt="avatar"
               className="avatar-img"
               />
