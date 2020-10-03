@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import mypic from '../assets/images/me.jpg';
 
+
 class Landing extends Component {
   render() {
     return(
@@ -15,11 +16,11 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Learner of Web & Android</h1>
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | Android | FireBase | Python | MySQL</p>
+          <p>HTML | CSS | Bootstrap | JavaScript | React | Android | FireBase | Python | MySQL</p>
 
         <div className="social-links">
 
