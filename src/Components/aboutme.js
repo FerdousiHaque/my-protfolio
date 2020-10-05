@@ -234,13 +234,12 @@ class About extends Component {
   render() {
     return(
       <div>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>  
           <Tab>Web Development</Tab>
           <Tab>Android</Tab>
           <Tab>E-Learning</Tab>
           <Tab>HackRank</Tab>
         </Tabs>
-
 
           <Grid>
             <Cell col={12}>

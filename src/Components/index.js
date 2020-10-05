@@ -21,7 +21,6 @@ const styleRipple = {
     animation: 'ripple 850ms'
   }
   
-  
   export class Ripple extends Component {
     constructor(props) {
       super(props);
@@ -85,7 +84,7 @@ const styleRipple = {
     }
   
     renderRippleSpan() {
-      const {showRipple = false, combinedSpanStyles = {}} = this.state;
+      const {combinedSpanStyles = {}} = this.state;
       const spanArray = Object.keys(combinedSpanStyles);
       if (spanArray && spanArray.length > 0) {
         return (
@@ -103,7 +102,7 @@ const styleRipple = {
       return (
         <div ref="targetElement" style={{...styleRipple}} className={classes} onMouseOver={onClickHandler}>
           {children}
-          <div style={{...styleRippleContainer}} onMouseOut={this.showRipple} onMouseLeave={this.callCleanUp(this.cleanUp, 2000)}>
+          <div style={{...styleRippleContainer}} onMouseOut={this.showRipple} onMouseLeave={this.callCleanUp(this.cleanUp, 0)}>
             {this.renderRippleSpan()}
           </div>
         </div>

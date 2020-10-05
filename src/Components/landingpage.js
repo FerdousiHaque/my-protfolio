@@ -17,12 +17,11 @@ class Landing extends Component {
               />
             </Ripple>
             <div className="banner-text">
+              <Ripple>
               <h1>Learner of Web & Android</h1>
-
             <hr/>
-
           <p>HTML | CSS | Bootstrap | JavaScript | React | Android | FireBase | Python | MySQL</p>
-
+          </Ripple>
         <div className="social-links">
 
           {/* LinkedIn */}
