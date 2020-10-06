@@ -16,9 +16,9 @@ const styleRipple = {
     transform: 'scale(0)',
     borderRadius: '100%',
     position: 'absolute',
-    opacity: '0.40',
+    opacity: '0.35',
     backgroundColor: 'rgb(247, 137, 214)',
-    animation: 'ripple 850ms'
+    animation: 'ripple 1050ms'
   }
   
   export class Ripple extends Component {
@@ -100,9 +100,9 @@ const styleRipple = {
     render() {
       const {children= null, classes = "", onClickHandler = null} = this.props;
       return (
-        <div ref="targetElement" style={{...styleRipple}} className={classes} onMouseOver={onClickHandler}>
+        <div ref="targetElement" style={{...styleRipple}} className={classes} onMouseOver={onClickHandler} onClick={onClickHandler}>
           {children}
-          <div style={{...styleRippleContainer}} onMouseOut={this.showRipple} onMouseLeave={this.callCleanUp(this.cleanUp, 0)}>
+          <div style={{...styleRippleContainer}} onMouseOut={this.showRipple} onMouseLeave={this.showRipple} onMouseDown={this.showRipple} onMouseUp={this.showRipple}>
             {this.renderRippleSpan()}
           </div>
         </div>

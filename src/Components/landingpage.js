@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import mypic from '../assets/images/me.jpg';
-import Ripple from './index';
+import Ripple from './ripple';
 
 class Landing extends Component {
   render() {
